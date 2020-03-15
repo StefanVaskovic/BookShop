@@ -1,0 +1,511 @@
+@media screen and (max-width: 1300px){
+   
+  
+    .centriraj{
+        /*1000*/
+    }
+    
+
+}
+@media screen and (max-width:1120px){
+    .centriraj{
+        /*900*/
+    }
+    #slike img{
+      margin-right: 50px;
+    }
+    #slike {
+      width:100%;
+      display:flex; 
+      justify-content:space-around; 
+      flex-wrap:wrap; 
+      min-height:300px;
+      /* border:1px solid;   */
+      margin:0px auto;
+      padding-bottom:50px;
+    }
+    .slika {
+      /* display:block; */
+      /* float:left; */
+        width:50%;  /*455px */
+        min-height:250px; 
+        position:relative;
+        overflow:hidden;  
+         
+        margin-top:25px; 
+      /* border-left:1px solid; */
+      /* border-right:1px solid; */
+      
+      /* border:1px solid red; */
+      
+    }
+  
+    .hoverBlock {
+      position:absolute;
+      top:-100%;
+      left:0px;
+      width:100%;
+      height:100%;
+      background-color:rgba(209, 209, 175, 1);
+      transition: .7s;
+      
+    }
+    .hoverBlock h3{
+      position:absolute;
+      top:45%;
+      left:5%;
+      color:#7c7c75;
+      font-family:arial;
+    }
+    .slika:hover .hoverBlock{
+      top:0%;
+      transform: rotate(360deg);
+      
+    }
+    .slika img{
+      transform:scale(1.01);
+    }
+   
+    #forma {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px; }
+        #forma #tabela1 {
+         
+          width: 900px; }
+        #forma input {
+          padding: 10px;
+          width: 440px; }
+        #forma td {
+          padding: 5px; }
+        #forma textarea {
+          width: 100%;
+          padding: 10px;
+          min-height: 200px; }
+        #forma input[type="button"] {
+          padding: 5px;
+          width: auto; }
+}
+@media screen and (max-width:920px){
+  #slike{
+       width:100%;
+      display:flex; 
+      align-items: center;
+    
+      flex-wrap:wrap; 
+   
+         
+      margin:0px auto;
+      padding: 0px;
+     
+  }
+
+  
+ 
+    .dva #text #textPrvi .his {
+        text-align: center;
+        font-size: 50px;
+        
+        letter-spacing: 3px;
+        font-weight: bold; }
+    .dva #text #textPrvi .fed {
+        font-size: 50px;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+        font-weight: bold; }
+    .centriraj{
+        /*650*/
+    }
+   
+    #t1,#t2{
+        width:100%;
+    }
+    #forma1{
+        margin-left: 5px;
+    }
+    .jedan {
+        
+        flex-direction: column;
+    }
+    #forma {
+     
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px; }
+        #forma #tabela1 {
+        
+          width: 630px; }
+        #forma input[type="text"] {
+        margin-bottom: 13px;
+          padding: 10px;
+          width: 100%; }
+     #forma input[type="email"] {
+          padding: 10px;
+          width: 100%; }
+        #forma td {
+          padding: 5px; }
+        #forma textarea {
+          width: 100%;
+          padding: 10px;
+          min-height: 200px; }
+        #forma input[type="button"] {
+          padding: 5px;
+          width: auto; }
+    
+}
+@media screen and (max-width:667px){
+  #slike{
+    width:100%;
+   display:flex; 
+   align-items: center;
+ 
+   flex-wrap:wrap; 
+
+      
+   margin:0px auto;
+   padding: 0px;
+  flex-direction: column;
+}
+.prvi{
+  margin: 0px;
+}
+#Dole1 #slike .container {
+  
+  width: 95%;
+  
+}
+    .dva #text #textPrvi .his {
+        text-align: center;
+        font-size: 45px;
+        
+        letter-spacing: 3px;
+        font-weight: bold; }
+    .dva #text #textPrvi .fed {
+        font-size: 45px;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+        font-weight: bold; }
+    .centriraj{
+                  /*500*/
+        
+    }
+    .jedan{
+      width: 500px;
+    }
+   
+    
+    .tri h1:before {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: -130px;
+        top: 60px;
+        background-color:#959a9b; }
+      .tri h1:after {
+        content: "";
+        display: block;
+        width: 120px;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        right: -130px;
+        top: 60px; 
+        background-color:#959a9b;}
+    .cetiri h2 {
+        position: relative;}
+        .cetiri h2:before {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          left: -130px;
+          top: 63px;
+          background-color:#85dae2; }
+        .cetiri h2:after {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          right: -130px;
+          top: 63px;
+          background-color:#85dae2; }
+    .pet h3 {
+        position: relative;
+        padding-top: 60px; }
+        .pet h3:before {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          left: -130px;
+          top: 71px;
+          background-color:#959a9b; }
+        .pet h3:after {
+          content: "";
+          display: block;
+          width: 120px;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          right: -130px;
+          top: 71px;
+          background-color:#959a9b; }
+          .dva #text #textDrugi {
+            flex-direction: column;
+            align-items: center;
+            
+         }
+         #text{
+            position: absolute;
+            top:150px;
+            width: 400px;
+        }
+         .dva #text #textDrugi .vestine {
+             padding: 10px;
+         }
+         .dva #text #textDrugi .p1{
+           padding: 10px 20px;
+         }
+        .dva #text #textDrugi .vestine:not(.p1) {
+             border-left:none;
+          }
+         .dva #text #textDrugi .vestine:not(.p2){
+              border-bottom:1px solid;
+          }
+          #forma {
+           
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px; }
+            #forma #tabela1 {
+              
+              width: 440px; }
+            #forma input[type="text"] {
+            margin-bottom: 13px;
+              padding: 10px;
+              width: 100%; }
+         #forma input[type="email"] {
+              padding: 10px;
+              width: 100%; }
+            #forma td {
+              padding: 5px; }
+            #forma textarea {
+              width: 100%;
+              padding: 10px;
+              min-height: 200px; }
+            #forma input[type="button"] {
+              padding: 5px;
+              width: auto; }
+              #text2ISlika{
+                display: flex;
+                flex-direction: column;
+              }
+              #text2{
+                width:70%;
+              }
+        
+}
+@media screen and (max-width:517px){
+  #fon{
+    flex-direction: column;
+  }
+  #imejl{
+      flex-direction: column;
+  }
+  #Gore2 #text2 #fon i {
+    padding: 0px; }
+    #Gore2 #text2 #imejl i {
+      padding: 0px; }
+  .sest{
+    flex-direction: column;
+  }
+  #header{
+    background-color:rgba(78, 83, 91, 0.8);
+    border-radius:0px 0px 40% 40%;
+  }
+  .jedan{
+    width: auto;
+  }
+  #forma1 input{
+       width: 50%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .dva #text #textPrvi .his{
+        text-align: center;
+        font-size: 40px;
+      
+        letter-spacing: 3px;
+        font-weight: bold; }
+    .dva #text #textPrvi .fed {
+        font-size: 40px;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+        font-weight: bold; }
+        #text{
+            position: absolute;
+            top:-150px;
+        }
+        .dva{
+            position: relative;
+        }
+        #Gore1{
+            min-height: 850px;
+        }
+        #trans{
+       
+          background-color:rgba(0, 0, 0, 1);
+        }
+        #text{
+            max-width: 200px;
+        }
+        .dva #text #textDrugi {
+           flex-direction: column;
+           align-items: center;
+           
+        }
+        .dva #text #textDrugi .vestine {
+            padding: 10px;
+        }
+        .dva #text #textDrugi .p1{
+          padding: 10px 20px;
+        }
+       .dva #text #textDrugi .vestine:not(.p1) {
+            border-left:none;
+         }
+        .dva #text #textDrugi .vestine:not(.p2){
+             border-bottom:1px solid;
+         }
+         #text2ISlika{
+           display: flex;
+           flex-direction: column;
+         }
+    .centriraj{
+      /*300*/
+    }
+  
+    #header{
+     
+      
+    }
+    .jedan #meni ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   #meni li{
+
+        display: block;
+        
+   }
+   #meni a{
+       display: block;
+   }
+ 	 
+.tri h1:before {
+    content: "";
+    display: none;
+    width: 90%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: -130px;
+    top: 60px;
+}
+  .tri h1:after {
+    content: "";
+    display: none;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: -80px;
+    top: 60px; 
+}
+.cetiri h2 {
+    position: relative; 
+}
+    .cetiri h2:before {
+      content: "";
+      display: none;
+      width: 120px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      left: -130px;
+      top: 63px; 
+    }
+    .cetiri h2:after {
+      content: "";
+      display: none;
+      width: 120px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      right: -130px;
+      top: 63px;
+     }
+.pet h3 {
+    position: relative;
+    padding-top: 60px;
+}
+    .pet h3:before {
+      content: "";
+      display: none;
+      width: 120px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      left: -130px;
+      top: 71px; 
+    }
+    .pet h3:after {
+      content: "";
+      display: none;
+      width: 120px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      right: -130px;
+      top: 71px; 
+    }
+    #forma {
+       
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px; }
+        #forma #tabela1 {
+        
+          width: 100%; }
+        #forma input[type="text"] {
+        margin-bottom: 13px;
+          padding: 10px;
+          width: 100%; }
+     #forma input[type="email"] {
+          padding: 10px;
+          width: 100%; }
+        #forma td {
+          padding: 5px; }
+        #forma textarea {
+          width: 100%;
+          padding: 10px;
+          min-height: 200px; }
+        #forma input[type="button"] {
+          padding: 5px;
+          width: auto; }
+}

@@ -1,0 +1,474 @@
+$plava1: #c7dae9;
+$plava2: #85dae2;
+$siva: #959a9b;
+
+
+$font0: Ranga;
+$font1: cursive;
+
+
+$pozadina: url(../img/pozadina1.jpg);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: $font0, $font1;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	scroll-behavior: smooth;
+
+}
+.cleaner{
+	clear: both;
+}
+.responsiveImg {
+	width: 100%;
+	height: auto;
+	
+}
+a {
+	color: #000;
+}
+#CelaStrana {
+	width: 100%;
+}
+#Gore1 {
+	background-image: $pozadina;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	min-height: 650px;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	
+	p{
+		color:white;
+	}
+
+	
+	#trans{
+		position: absolute;
+		top:0px;
+		bottom: 0px;
+		left: 0px;
+		right:0px;
+		background-color:rgba(0,0,0, 0.5);
+	}
+	
+}
+#text2ISlika {
+	
+	img{
+		height:auto;
+		border-radius:30%;
+		padding:1px;
+		border:1px solid #021a40;
+		background-color:#85dae2;
+		width:200px;
+	}
+}
+
+.centriraj {
+	width: 95%;
+	margin: 0px auto;
+	
+}
+.cetiri{
+	width: 100%;
+	margin: 0px auto;
+}
+.jedan {
+	
+		#meni{
+	
+			 ul {
+		display: flex;
+		li {
+
+			overflow: hidden;
+			a {
+		
+				color: white;
+				padding: 25px 35px;
+				&:hover {
+					color: $plava1;
+				}
+			}
+		}
+	}
+}
+	min-height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dva {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	#text{
+		margin-top: 150px;
+
+		#textPrvi {
+			text-align: center;
+			letter-spacing: 3px;
+			font-weight: bold;
+			.fed{
+				font-size: 60px;
+				margin-bottom: 20px;
+				letter-spacing: 3px;
+			
+			
+			}
+			.his{
+				font-size: 60px;
+			}
+		}
+		
+		#textDrugi{
+			display: flex;
+			.vestine{
+				padding-right:25px;
+				padding-left:25px;
+				&:not(.p1){border-left: 1px solid;}
+			}
+		}
+	}
+
+}
+
+#Gore2 {
+	background-color: $plava2;
+	min-height: 400px;
+	#text2{
+		p{
+			font-size: 23px;
+			color:#56585b;
+		}
+		#fon{
+			i{
+				padding: 5px 5px 0px 10px;
+			}
+			display: flex;
+		}
+		#imejl{
+			i{
+				padding: 5px 5px 0px 12px;
+			}
+			display: flex;
+			
+		}
+		
+		
+	}
+	
+}
+.tri {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h1 {
+		padding-top: 40px;
+		position: relative;
+		max-width: 600px;
+		&:before {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			left: -220px;
+			top: 60px;
+			background-color:$siva;
+		}
+		&:after {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			right: -220px;
+			top: 60px;
+			background-color:$siva;
+		}
+	}
+}
+hr {
+	width: 50%;
+}
+#text2ISlika {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 400px;
+}
+#slika {
+	padding: 30px;
+}
+#Dole1 {
+	min-height: 500px;
+	background: $siva;
+	h2 {
+		padding-top: 50px;
+		color: $plava2;
+	}
+	
+
+	#slike {
+		width:100%;
+		display:flex; 
+		justify-content: space-around;
+		flex-wrap:wrap; 
+		
+		/* border:1px solid;   */
+		margin:0px auto;
+		padding-bottom: 50px;
+		.container {
+			position: relative;
+			width: 47%;
+			overflow: hidden;
+			margin-top: 10px;
+		}
+		
+		.image {
+			display: block;
+			border-radius: 20px;
+		}
+		.text {
+			color: #85dae2;
+			font-size: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+		
+		.hoverBlok {
+			background-color: #6a6c70;
+			border-radius: 20px;
+			position: absolute;
+			top: -100%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			transition: .5s ease;
+			height: 100%;
+			width: 100%;
+			
+		}
+		
+		.container:hover .hoverBlok {
+			opacity: 1;
+			transform: rotate(360deg);
+			top:0;
+		}
+		
+		
+		
+	}
+
+
+
+
+
+
+
+
+
+
+}
+.cetiri {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h2 {
+		position: relative;
+		&:before {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			left: -220px;
+			top: 63px;
+			background-color:  $plava2;
+		}
+		&:after {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			right: -220px;
+			top: 63px;
+			background-color:  $plava2;
+		}
+	}
+}
+#galreija {
+	margin-top: 30px;
+}
+#Dole2 {
+	background: $plava2;
+	min-height: 500px;
+}
+.pet {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h3 {
+		position: relative;
+		padding-top: 55px;
+		&:before {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			left: -220px;
+			top: 71px;
+			background-color:$siva;
+		}
+		&:after {
+			content: "";
+			display: block;
+			width: 200px;
+			height: 2px;
+			background: #000;
+			position: absolute;
+			right: -220px;
+			top: 71px;
+			background-color:$siva;
+		}
+	}
+}
+#forma {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	#tabela1{
+		
+		width:1000px;
+	}
+	input {
+		
+		padding: 10px;
+		width:490px;
+	}
+	td {
+		padding: 5px;
+	}
+	textarea {
+        width:100%;
+        padding: 10px;
+		min-height: 200px;
+		resize: none;
+	}
+	#btn3 {
+		padding: 5px;
+		width:auto;
+	}
+	input,textarea{
+		border-radius: 20px;
+		outline: none;
+		border: 1px solid #008CBA;
+	}
+	input:focus,textarea:focus{
+		background-color: #c9f0ff;
+	
+	 }
+	 .button {
+		border-radius: 20px;
+		background-color: #4CAF50; /* Green */
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		cursor: pointer;
+	  }
+	  #btn3:hover{
+		
+			background-color: #008CBA;
+			color: white;
+		  
+	  }
+	  .button2 {
+		background-color: white; 
+		color: black; 
+		border: 1px solid #008CBA;
+	  }
+	  .button2:hover {
+		background-color: #008CBA;
+		color: white;
+	  }
+	  
+}
+#kontakt{
+	i{
+		color:#56585b;
+	}
+}
+
+#ikonice {
+	padding-top: 15px;
+	i {
+		padding: 0 10px;
+		color:#56585b;
+	}
+}
+#Dole3 {
+	background: $siva;
+}
+.sest {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 60px;
+	p {
+		color: #fff;
+	}
+}
+
+#text2 p {
+	padding-bottom: 30px;
+}
+h1,h2,h3{
+	font-size:25px;
+}
+h1,h3{
+	color:$siva;
+}
+.sest{
+	display: flex;
+	justify-content: space-around;
+	a{
+		color:white;
+	}
+	a:hover{
+		color:$plava1;
+	}
+}
+
+

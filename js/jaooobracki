@@ -1,0 +1,234 @@
+$.ajax({
+              url:"data/knjige.json",
+              method:"GET",
+              dataType:"json",
+              success:function(knjige){
+                  console.log(knjige);
+                  if(vrednost=="LtH"){ceniRastuce(knjige);}
+                  else if(vrednost=="HtL"){ceniOpadajuce(knjige);}
+                  else if(vrednost=="AZ"){naslovuOdAdoZ(knjige);}
+                  else if(vrednost=="ZA"){naslovuOdZdoA(knjige);}
+                  else if(vrednost=="New"){datumuNajnoviji(knjige);}
+                  else if(vrednost=="Old"){datumuNajstariji(knjige);}
+                  else {brojuKomentara(knjige);}
+              }
+          });
+
+
+
+
+          $.ajax({
+          url:"data/knjige.json",
+          method:"GET",
+          dataType:"json",
+          success:function(knjige){
+              console.log(knjige);
+              
+              var filtrirano = knjige.filter(k=>{
+                let bool = k.naslov.toLowerCase().indexOf(unos) != -1 ?  true :  false;
+
+                return bool;
+              });
+              ispisKnjiga(filtrirano);
+          }
+      });
+
+
+
+     $.ajax({
+        url:"data/knjige.json",
+        method:"GET",
+        dataType:"json",
+        success:function(knjige){
+            console.log(knjige);
+            ispisKnjiga(knjige);
+            ispisModala(knjige);
+        }
+    });
+
+
+
+
+    $.ajax({
+                url:"data/knjige.json",
+                method:"GET",
+                dataType:"json",
+                success:function(knjige){
+                    console.log(knjige);
+                    ispisKomentara(knjige,id);
+                }
+            });
+
+
+
+
+             $(".cbGenre").on("change", document, function () {
+      var id = $(this).data('idzanr');
+      $.ajax({
+        url: "data/knjige.json",
+        method: "GET",
+        dataType: "json",
+        success: function (knjige) {
+          console.log(knjige);
+
+          var filtrirano = knjige.filter(k => {
+            return k.zanr.some(z => {
+              return z.idZanr == id
+            });
+          });
+          ispisKnjiga(filtrirano);
+        }
+      });
+    });
+
+
+
+
+
+
+
+    function filtrirajPoZanru() {
+  let svi = document.getElementsByClassName("cbGenre");
+  let idCekiranih = [];
+  for (let jedan of svi) {
+    if (jedan.checked) {
+      idCekiranih.push(parseInt(jedan.dataset.idzanr))
+    }
+  }
+
+  ajaxKnjige(function (knjige) {
+    if (idCekiranih.length > 0) {
+      knjige =  knjige.filter(k => {
+        let zanrovi = k.zanr.map(k => k.idZanr);
+        console.log(zanrovi);
+       
+        for (let zanr of idCekiranih) {
+          if (zanrovi.indexOf(zanr) != -1) {
+            return true;
+          }
+        }
+        return false;
+      });
+    }
+    ispisKnjiga(knjige);
+  })
+}
+
+
+
+
+// document.getElementById("ddlSortBy").addEventListener("change", sortiraj);
+
+
+
+
+function sortiraj() {
+  let vrednost = this.value;
+
+  // ubaciSortVrednost(vrednost);
+
+  // vrednost = dohvatiSortVrednost();
+
+  console.log(vrednost);
+  sortirajPo();
+
+  function sortirajPo() {
+    ajaxKnjige(function (knjige) {
+      // let iliSveKnjigeIliSamoLocalStorage;
+      // let knjigeIzLocalStorage = dohvatiKnjigeIzlocalStorage();
+
+      // if(knjigeIzLocalStorage==null)knjigeIzLocalStorage=0;
+      // if (knjigeIzLocalStorage.length) {
+      //   iliSveKnjigeIliSamoLocalStorage = knjigeIzLocalStorage;
+      // } else {
+      //   iliSveKnjigeIliSamoLocalStorage = knjige;
+      // }
+
+
+      if (vrednost == "LtH") { ceniRastuce(knjige); }
+      else if (vrednost == "HtL") { ceniOpadajuce(knjige); }
+      else if (vrednost == "AZ") { naslovuOdAdoZ(knjige); }
+      else if (vrednost == "ZA") { naslovuOdZdoA(knjige); }
+      else if (vrednost == "New") { datumuNajnoviji(knjige); }
+      else if (vrednost == "Old") { datumuNajstariji(knjige); }
+      else if (vrednost == "0") { ispisKnjiga(knjige) }
+      else { brojuKomentara(knjige); }
+    });
+  }
+
+
+}
+
+
+
+function filtrirajPoZanru() {
+  let svi = document.getElementsByClassName("cbGenre");
+  let idCekiranih = [];
+  for (let jedan of svi) {
+    if (jedan.checked) {
+      idCekiranih.push(parseInt(jedan.dataset.idzanr))
+    }
+  }
+
+  ajaxKnjige(function (knjige) {
+    if (idCekiranih.length > 0) {
+      knjige = knjige.filter(k => {
+        let zanrovi = k.zanr.map(k => k.idZanr);
+        let bool = true;
+        for (let zanr of idCekiranih) {
+          if (!(zanrovi.indexOf(zanr) !== -1)) {
+            bool = false;
+            break;
+          }
+        }
+        return bool;
+      });
+    }
+    ispisKnjiga(knjige);
+    ispisModala(knjige);
+    korpaZaSve(knjige);
+
+  })
+}
+
+
+function filtrirajPoCeni() {
+  var cenaOd = $("#priceRange option:selected").data('from')
+  var cenaDo = $("#priceRange option:selected").data('to')
+  var ddlCena = this.value;
+
+  ajaxKnjige((knjige) => {
+    console.log(knjige);
+    knjige = knjige.filter(k => {
+      let bool = true;
+      if (!(k.cena.nova <= cenaDo && k.cena.nova >= cenaOd)) {
+        bool = false;
+      }
+      if (ddlCena == 0) {
+        bool = true;
+      }
+      return bool;
+    });
+    ispisKnjiga(knjige);
+    ispisModala(knjige);
+    korpaZaSve(knjige)
+  });
+}
+
+
+
+                <!-- <option value="1" data-from="100" data-to="199">$100 to $199</option>
+                <option value="2" data-from="200" data-to="299">$200 to $299</option>
+                <option value="3" data-from="300" data-to="399">$300 to $399</option>
+                <option value="4" data-from="400" data-to="499">$400 to $499</option>
+                <option value="5" data-from="500" data-to="599">$500 to $599</option>  -->
+
+
+
+                <!-- <option value="LtH">Price Low to High</option>
+                <option value="HtL">Price High to Low</option>
+                <option value="AZ">Title A-Z</option>
+                <option value="ZA">Title Z-A</option>
+                <option value="New">Newest</option>
+                <option value="Old">Oldest</option>
+                <option value="P">Popularity</option>  -->

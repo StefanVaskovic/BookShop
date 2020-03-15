@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "naziv":"Horror"
+    },
+    {
+        "id":2,
+        "naziv":"Comedy"
+    },
+    {
+        "id":3,
+        "naziv":"Mystery"
+    },
+    {
+        "id":4,
+        "naziv":"Autobiography"
+    },
+    {
+        "id":5,
+        "naziv":"Romance"
+    },
+    {
+        "id":6,
+        "naziv":"Drama"
+    }
+]

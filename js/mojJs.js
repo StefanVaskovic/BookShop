@@ -314,7 +314,7 @@ function ispisModala(knjige) {
                     <div class="col-lg-8 mx-auto">
                       <div class="modal-body">
                         <!-- Project Details Go Here -->
-                        <h2 class="text-uppercase">Description of book</h2>
+                        <h2 class="text-uppercase">Short summary</h2>
                         <img class="img-fluid d-block mx-auto" src="${k.slika.src}" alt="${k.slika.alt}">
                         <p>${k.tekst}</p>
                         <ul class="list-inline">

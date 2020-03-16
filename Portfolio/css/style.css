@@ -1,0 +1,354 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Ranga, cursive;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  scroll-behavior: smooth; }
+
+.cleaner {
+  clear: both; }
+
+.responsiveImg {
+  width: 100%;
+  height: auto; }
+
+a {
+  color: #000; }
+
+#CelaStrana {
+  width: 100%; }
+
+#Gore1 {
+  background-image: url(../img/pozadina1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+  #Gore1 p {
+    color: white; }
+  #Gore1 #trans {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+#text2ISlika img {
+  height: auto;
+  border-radius: 30%;
+  padding: 1px;
+  border: 1px solid #021a40;
+  background-color: #85dae2;
+  width: 200px; }
+
+.centriraj {
+  width: 95%;
+  margin: 0px auto; }
+
+.cetiri {
+  width: 100%;
+  margin: 0px auto; }
+
+.jedan {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .jedan #meni ul {
+    display: flex; }
+    .jedan #meni ul li {
+      overflow: hidden; }
+      .jedan #meni ul li a {
+        color: white;
+        padding: 25px 35px; }
+        .jedan #meni ul li a:hover {
+          color: #c7dae9; }
+
+.dva {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .dva #text {
+    margin-top: 150px; }
+    .dva #text #textPrvi {
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: bold; }
+      .dva #text #textPrvi .fed {
+        font-size: 60px;
+        margin-bottom: 20px;
+        letter-spacing: 3px; }
+      .dva #text #textPrvi .his {
+        font-size: 60px; }
+    .dva #text #textDrugi {
+      display: flex; }
+      .dva #text #textDrugi .vestine {
+        padding-right: 25px;
+        padding-left: 25px; }
+        .dva #text #textDrugi .vestine:not(.p1) {
+          border-left: 1px solid; }
+
+#Gore2 {
+  background-color: #85dae2;
+  min-height: 400px; }
+  #Gore2 #text2 p {
+    font-size: 23px;
+    color: #56585b; }
+  #Gore2 #text2 #fon {
+    display: flex; }
+    #Gore2 #text2 #fon i {
+      padding: 5px 5px 0px 10px; }
+  #Gore2 #text2 #imejl {
+    display: flex; }
+    #Gore2 #text2 #imejl i {
+      padding: 5px 5px 0px 12px; }
+
+.tri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .tri h1 {
+    padding-top: 40px;
+    position: relative;
+    max-width: 600px; }
+    .tri h1:before {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      left: -220px;
+      top: 60px;
+      background-color: #959a9b; }
+    .tri h1:after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      right: -220px;
+      top: 60px;
+      background-color: #959a9b; }
+
+hr {
+  width: 50%; }
+
+#text2ISlika {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 400px; }
+
+#slika {
+  padding: 30px; }
+
+#Dole1 {
+  min-height: 500px;
+  background: #959a9b; }
+  #Dole1 h2 {
+    padding-top: 50px;
+    color: #85dae2; }
+  #Dole1 #slike {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border:1px solid;   */
+    margin: 0px auto;
+    padding-bottom: 50px; }
+    #Dole1 #slike .container {
+      position: relative;
+      width: 47%;
+      overflow: hidden;
+      margin-top: 10px; }
+    #Dole1 #slike .image {
+      display: block;
+      border-radius: 20px; }
+    #Dole1 #slike .text {
+      color: #85dae2;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; }
+    #Dole1 #slike .hoverBlok {
+      background-color: #6a6c70;
+      border-radius: 20px;
+      position: absolute;
+      top: -100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: .5s ease;
+      height: 100%;
+      width: 100%; }
+    #Dole1 #slike .container:hover .hoverBlok {
+      opacity: 1;
+      transform: rotate(360deg);
+      top: 0; }
+
+.cetiri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .cetiri h2 {
+    position: relative; }
+    .cetiri h2:before {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      left: -220px;
+      top: 63px;
+      background-color: #85dae2; }
+    .cetiri h2:after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      right: -220px;
+      top: 63px;
+      background-color: #85dae2; }
+
+#galreija {
+  margin-top: 30px; }
+
+#Dole2 {
+  background: #85dae2;
+  min-height: 500px; }
+
+.pet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .pet h3 {
+    position: relative;
+    padding-top: 55px; }
+    .pet h3:before {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      left: -220px;
+      top: 71px;
+      background-color: #959a9b; }
+    .pet h3:after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 2px;
+      background: #000;
+      position: absolute;
+      right: -220px;
+      top: 71px;
+      background-color: #959a9b; }
+
+#forma {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px; }
+  #forma #tabela1 {
+    width: 1000px; }
+  #forma input {
+    padding: 10px;
+    width: 490px; }
+  #forma td {
+    padding: 5px; }
+  #forma textarea {
+    width: 100%;
+    padding: 10px;
+    min-height: 200px;
+    resize: none; }
+  #forma #btn3 {
+    padding: 5px;
+    width: auto; }
+  #forma input, #forma textarea {
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #008CBA; }
+  #forma input:focus, #forma textarea:focus {
+    background-color: #c9f0ff; }
+  #forma .button {
+    border-radius: 20px;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; }
+  #forma #btn3:hover {
+    background-color: #008CBA;
+    color: white; }
+  #forma .button2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #008CBA; }
+  #forma .button2:hover {
+    background-color: #008CBA;
+    color: white; }
+
+#kontakt i {
+  color: #56585b; }
+
+#ikonice {
+  padding-top: 15px; }
+  #ikonice i {
+    padding: 0 10px;
+    color: #56585b; }
+
+#Dole3 {
+  background: #959a9b; }
+
+.sest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px; }
+  .sest p {
+    color: #fff; }
+
+#text2 p {
+  padding-bottom: 30px; }
+
+h1, h2, h3 {
+  font-size: 25px; }
+
+h1, h3 {
+  color: #959a9b; }
+
+.sest {
+  display: flex;
+  justify-content: space-around; }
+  .sest a {
+    color: white; }
+  .sest a:hover {
+    color: #c7dae9; }
+
+/*# sourceMappingURL=style.css.map */

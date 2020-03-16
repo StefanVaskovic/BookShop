@@ -1,0 +1,386 @@
+[
+    {
+        "id":1,
+        "naslov":"Bossypants",
+        "autor":{
+            "idAutor":1,
+            "autor": "Tina Fey"
+        },
+        "zanr":[
+            {
+                "idZanr":2,
+                "naziv":"Comedy"
+            }
+        ],
+        "datum":"2005-05-25",
+        "cena":{
+            "nova":269.00,
+            "stara":299.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Karnjez Beli",
+                "korSlika":"img/u6.jpg",
+                "tekst":"I have read this book,it is amazing!!!"
+            },
+            {
+                "korisnickoIme":"Dralanda",
+                "korSlika":"img/u4.jpg",
+                "tekst":"Even though i do not like comedies i like this one!"
+            }
+        ],
+        "tekst":"Before Liz Lemon, before 'Weekend Update,' before 'Sarah Palin,' Tina Fey was just a young girl with a dream: a recurring stress dream that she was being chased through a local airport by her middle-school gym teacher. She also had a dream that one day she would be a comedian on TV.She has seen both these dreams come true.At last, Tina Fey's story can be told. From her youthful days as a vicious nerd to her tour of duty on Saturday Night Live; from her passionately halfhearted pursuit of physical beauty to her life as a mother eating things off the floor; from her one-sided college romance to her nearly fatal honeymoon—from the beginning of this paragraph to this final sentence.Tina Fey reveals all, and proves what we've all suspected: you're no one until someone calls you bossy.",
+        "slika":{
+            "src":"img/k1.jpg",
+            "alt":"knjiga 1",
+            "srcKorpa":"img/k1korpa.jpg"
+        }
+    },
+    {
+        "id":2,
+        "naslov":"How to be a woman",
+        "autor":{
+            "idAutor":2,
+            "autor": "Caitlin Moran"
+        },
+        "zanr":[
+            {
+                "idZanr":2,
+                "naziv":"Comedy"
+            },
+            {
+                "idZanr":5,
+                "naziv":"Romance"
+            }
+        ],
+        "datum":"2004-01-22",
+        "cena":{
+            "nova":145.00,
+            "stara":299.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"George Den",
+                "korSlika":"img/u7.jpg",
+                "tekst":"I want my money back!"
+            }
+        ],
+        "tekst":"Though they have the vote and the Pill and haven't been burned as witches since 1727, life isn't exactly a stroll down the catwalk for modern women. They are beset by uncertainties and questions: Why are they supposed to get Brazilians? Why do bras hurt? Why the incessant talk about babies? And do men secretly hate them? Caitlin Moran interweaves provocative observations on women's lives with laugh-out-loud funny scenes from her own, from adolescence to her development as a writer, wife, and mother.",
+        "slika":{
+            "src":"img/k2.jpg",
+            "alt":"knjiga 2",
+            "srcKorpa":"img/k2korpa.jpg"
+        }
+    },
+    {
+        "id":3,
+        "naslov":"The silent patient",
+        "autor":{
+            "idAutor":3,
+            "autor": "Alex Michaelides"
+        },
+        "zanr":[
+            {
+                "idZanr":1,
+                "naziv":"Horror"
+            }
+        ],
+        "datum":"2015-04-15",
+        "cena":{
+            "nova":499.00,
+            "stara":600.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Anna",
+                "korSlika":"img/u1.jpg",
+                "tekst":"I am scared.."
+            }
+        ],
+        "tekst":"Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.Alicia’s refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London.Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him...",
+        "slika":{
+            "src":"img/k3.jpg",
+            "alt":"knjiga 3",
+            "srcKorpa":"img/k3korpa.jpg"
+        }
+    },
+    {
+        "id":4,
+        "naslov":"Long range",
+        "autor":{
+            "idAutor":4,
+            "autor": "Joe Pickett"
+        },
+        "zanr":[
+            {
+                "idZanr":3,
+                "naziv":"Mystery"
+            }
+        ],
+        "datum":"2013-09-05",
+        "cena":{
+            "nova":399.00
+        },
+        "komentari":[],
+        "tekst":"The wife of a prominent local judge is shot and killed on Wyoming game warden Joe Pickett's turf. But as Joe investigates, all signs point to the shot having been taken from an impossibly long distance. Joe has seen a lot in his time as warden, but he's never seen a killing like this. How could the shooting have been arranged? And who else is in the cross hairs? At the same time--just as he's adjusting to the arrival of a new baby, his first child--Joe's best friend Nate Romanowski is attempting to decipher a startling grizzly attack in the area.Beset by threats both man-made and natural, the two men must go to great lengths to figure out how to keep their loved ones safe.",
+        "slika":{
+            "src":"img/k4.jpg",
+            "alt":"knjiga 4",
+            "srcKorpa":"img/k4korpa.jpg"
+        }
+    },
+    {
+        "id":5,
+        "naslov":"The wedding date",
+        "autor":{
+            "idAutor":5,
+            "autor": "Jasmine Guillory"
+        },
+        "zanr":[
+            {
+                "idZanr":5,
+                "naziv":"Romance"
+            }
+        ],
+        "datum":"2019-07-15",
+        "cena":{
+            "nova":439.00,
+            "stara":499.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Personjez Hepi",
+                "korSlika":"img/u5.jpg",
+                "tekst":"It should not be considered as book...boriiiiing...."
+            },
+            {
+                "korisnickoIme":"Hepinjez Pepi",
+                "korSlika":"img/u2.jpg",
+                "tekst":"I like weddings! But immorality in this book outweighs my expectations... EWWWW...."
+            }
+        ],
+        "tekst":"Agreeing to go to a wedding with a guy she gets stuck with in an elevator is something Alexa Monroe wouldn't normally do. But there's something about Drew Nichols that's too hard to resist.On the eve of his ex's wedding festivities, Drew is minus a plus one. Until a power outage strands him with the perfect candidate for a fake girlfriend...After Alexa and Drew have more fun than they ever thought possible, Drew has to fly back to Los Angeles and his job as a pediatric surgeon, and Alexa heads home to Berkeley, where she's the mayor's chief of staff. Too bad they can't stop thinking about the other...They're just two high-powered professionals on a collision course toward the long distance dating disaster of the century--or closing the gap between what they think they need and what they truly want... ",
+        "slika":{
+            "src":"img/k5.jpg",
+            "alt":"knjiga 5",
+            "srcKorpa":"img/k5korpa.jpg"
+        }
+    },
+    {
+        "id":6,
+        "naslov":"The kiss thief",
+        "autor":{
+            "idAutor":6,
+            "autor": "L.J. Shen"
+        },
+        "zanr":[
+            {
+                "idZanr":5,
+                "naziv":"Romance"
+            }
+        ],
+        "datum":"2006-06-22",
+        "cena":{
+            "nova":279.00,
+            "stara":350.00
+        },
+        "komentari":[],
+        "tekst":"They say your first kiss should be earned.Mine was stolen by a devil in a masquerade mask under the black Chicago sky.They say the vows you take on your wedding day are sacred.Mine were broken before we left church.They say your heart only beats for one man.Mine split and bled for two rivals who fought for it until the bitter end.I was promised to Angelo Bandini, the heir to one of the most powerful families in the Chicago Outfit.Then taken by Senator Wolfe Keaton, who held my father’s sins over his head to force me into marriage.They say that all great love stories have a happy ending.I, Francesca Rossi, found myself erasing and rewriting mine until the very last chapter.One kiss.Two men.Three lives.Entwined together.And somewhere between these two men, I had to find my forever.",
+        "slika":{
+            "src":"img/k6.jpg",
+            "alt":"knjiga 6",
+            "srcKorpa":"img/k6korpa.jpg"
+        }
+    },
+    {
+        "id":7,
+        "naslov":"Voyager",
+        "autor":{
+            "idAutor":7,
+            "autor": "Diana Gabaldon"
+        },
+        "zanr":[
+            {
+                "idZanr":3,
+                "naziv":"Mystery"
+            },
+            {
+                "idZanr":4,
+                "naziv":"Autobiography"
+            }
+        ],
+        "datum":"2019-08-27",
+        "cena":{
+            "nova":389.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Alex",
+                "korSlika":"img/u2.jpg",
+                "tekst":"Now i cannot sleep...."
+            },
+            {
+                "korisnickoIme":"Dralanda",
+                "korSlika":"img/u4.jpg",
+                "tekst":"@Alex USE MELATONIN!"
+            },
+            {
+                "korisnickoIme":"Doctor anti-supplement",
+                "korSlika":"img/u3.jpg",
+                "tekst":"@Dralanda It is bad for your brain! Just drink some milk and go to sleep earlier.."
+            }
+        ],
+        "tekst":"This is a story about one college girl, on appearance very strange,mysterious and cold,but inside she is very cute girl of a good heart.Not to mention how self-critical she is.In this book she describes her sleeping problems that she doesn't want to share with anybody.There is one guy she met, who is constantly asking her to tell him about her problems,hoping it will help her feel better,but somehow she always finds a way to espace from conversation about this topic.Pretty smart move on her part.Oftentimes she walks like men would do,throwing her arms around and swinging left to right.She would make a smile when she heard some people commenting about her walking style.If you like manlike girls with small baby hands,you should read this book! ",
+        "slika":{
+            "src":"img/k7.jpg",
+            "alt":"knjiga 7",
+            "srcKorpa":"img/k7korpa.jpg"
+        }
+    },
+    {
+        "id":8,
+        "naslov":"Open",
+        "autor":{
+            "idAutor":8,
+            "autor": "Andre Agassi"
+        },
+        "zanr":[
+            {
+                "idZanr":4,
+                "naziv":"Autobiography"
+            }
+        ],
+        "datum":"2000-04-12",
+        "cena":{
+            "nova":150.00,
+            "stara":170.00
+        },
+        "komentari":[],
+        "tekst":"From Andre Agassi, one of the most beloved athletes in history and one of the most gifted men ever to step onto a tennis court, a beautiful, haunting autobiography.Agassi’s incredibly rigorous training begins when he is just a child. By the age of thirteen, he is banished to a Florida tennis camp that feels like a prison camp. Lonely, scared, a ninth-grade dropout, he rebels in ways that will soon make him a 1980s icon. He dyes his hair, pierces his ears, dresses like a punk rocker. By the time he turns pro at sixteen, his new look promises to change tennis forever, as does his lightning-fast return.And yet, despite his raw talent, he struggles early on. We feel his confusion as he loses to the world’s best, his greater confusion as he starts to win. After stumbling in three Grand Slam finals, Agassi shocks the world, and himself, by capturing the 1992 Wimbledon. Overnight he becomes a fan favorite and a media target.Agassi brings a near-photographic memory to every pivotal match and every relationship. Never before has the inner game of tennis and the outer game of fame been so precisely limned. Alongside vivid portraits of rivals from several generations—Jimmy Connors, Pete Sampras, Roger Federer—Agassi gives unstinting accounts of his brief time with Barbra Streisand and his doomed marriage to Brooke Shields. He reveals a shattering loss of confidence. And he recounts his spectacular resurrection, a comeback climaxing with his epic run at the 1999 French Open and his march to become the oldest man ever ranked number one.In clear, taut prose, Agassi evokes his loyal brother, his wise coach, his gentle trainer, all the people who help him regain his balance and find love at last with Stefanie Graf. Inspired by her quiet strength, he fights through crippling pain from a deteriorating spine to remain a dangerous opponent in the twenty-first and final year of his career. Entering his last tournament in 2006, he’s hailed for completing a stunning metamorphosis, from nonconformist to elder statesman, from dropout to education advocate. And still he’s not done. At a U.S. Open for the ages, he makes a courageous last stand, then delivers one of the most stirring farewells ever heard in a sporting arena.With its breakneck tempo and raw candor, Open will be read and cherished for years. A treat for ardent fans, it will also captivate readers who know nothing about tennis. Like Agassi’s game, it sets a new standard for grace, style, speed, and power.",
+        "slika":{
+            "src":"img/k8.jpg",
+            "alt":"knjiga 8",
+            "srcKorpa":"img/k8korpa.jpg"
+        }
+    },
+    {
+        "id":9,
+        "naslov":"When time stopped",
+        "autor":{
+            "idAutor":9,
+            "autor": "Ariana Neumann"
+        },
+        "zanr":[
+            {
+                "idZanr":4,
+                "naziv":"Autobiography"
+            }
+        ],
+        "datum":"2005-05-25",
+        "cena":{
+            "nova":200.00,
+            "stara":249.00
+        },
+        "komentari":[],
+        "tekst":"In 1941, the first Neumann family member was taken by the Nazis, arrested in German-occupied Czechoslovakia for bathing in a stretch of river forbidden to Jews. He was transported to Auschwitz. Eighteen days later his prisoner number was entered into the morgue book.Of thirty-four Neumann family members, twenty-five were murdered by the Nazis. One of the survivors was Hans Neumann, who, to escape the German death net, traveled to Berlin and hid in plain sight under the Gestapo’s eyes. What Hans experienced was so unspeakable that, when he built an industrial empire in Venezuela, he couldn’t bring himself to talk about it. All his daughter Ariana knew was that something terrible had happened.When Hans died, he left Ariana a small box filled with letters, diary entries, and other memorabilia. Ten years later Ariana finally summoned the courage to have the letters translated, and she began reading. What she discovered launched her on a worldwide search that would deliver indelible portraits of a family loving, finding meaning, and trying to survive amid the worst that can be imagined.When Time Stopped is a detective story and an epic family memoir, spanning nearly ninety years and crossing oceans. Neumann brings each relative to vivid life. In uncovering her father’s story after all these years, she discovers nuance and depth to her own history and liberates poignant and thought-provoking truths about the threads of humanity that connect us all. ",
+        "slika":{
+            "src":"img/k9.jpg",
+            "alt":"knjiga 9",
+            "srcKorpa":"img/k9korpa.jpg"
+        }
+    },
+    {
+        "id":10,
+        "naslov":"Romeo and Juliet",
+        "autor":{
+            "idAutor":10,
+            "autor": "William Shakespeare"
+        },
+        "zanr":[
+            {
+                "idZanr":6,
+                "naziv":"Drama"
+            }
+        ],
+        "datum":"2005-04-10",
+        "cena":{
+            "nova":1.00,
+            "stara":2.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Paskec",
+                "korSlika":"img/u8.jpg",
+                "tekst":"I dont have money for this.."
+            }
+        ],
+        "tekst":"In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud.In this death-filled setting, the movement from love at first sight to the lovers’ final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers.",
+        "slika":{
+            "src":"img/k10.jpg",
+            "alt":"knjiga 10",
+            "srcKorpa":"img/k10korpa.jpg"
+        }
+    },
+    {
+        "id":11,
+        "naslov":"Outsider",
+        "autor":{
+            "idAutor":11,
+            "autor": "Stephen King"
+        },
+        "zanr":[
+            {
+                "idZanr":1,
+                "naziv":"Horror"
+            },
+            {
+                "idZanr":3,
+                "naziv":"Mystery"
+            }
+        ],
+        "datum":"2018-05-25",
+        "cena":{
+            "nova":349.00,
+            "stara":450.00
+        },
+        "komentari":[],
+        "tekst":"An unspeakable crime. A confounding investigation. At a time when the King brand has never been stronger, he has delivered one of his most unsettling and compulsively readable stories.An eleven-year-old boy’s violated corpse is found in a town park. Eyewitnesses and fingerprints point unmistakably to one of Flint City’s most popular citizens. He is Terry Maitland, Little League coach, English teacher, husband, and father of two girls. Detective Ralph Anderson, whose son Maitland once coached, orders a quick and very public arrest. Maitland has an alibi, but Anderson and the district attorney soon add DNA evidence to go with the fingerprints and witnesses. Their case seems ironclad.As the investigation expands and horrifying answers begin to emerge, King’s propulsive story kicks into high gear, generating strong tension and almost unbearable suspense. Terry Maitland seems like a nice guy, but is he wearing another face? When the answer comes, it will shock you as only Stephen King can.",
+        "slika":{
+            "src":"img/k11.jpg",
+            "alt":"knjiga 11",
+            "srcKorpa":"img/k11korpa.jpg"
+        }
+    },
+    {
+        "id":12,
+        "naslov":"The eyes of the dragon",
+        "autor":{
+            "idAutor":11,
+            "autor": "Stephen King"
+        },
+        "zanr":[
+            {
+                "idZanr":1,
+                "naziv":"Horror"
+            }
+        ],
+        "datum":"2017-03-20",
+        "cena":{
+            "nova":249.00
+        },
+        "komentari":[
+            {
+                "korisnickoIme":"Malicious User",
+                "korSlika":"img/u9.jpg",
+                "tekst":"OR 1=1 ;) ;) ;) ;) ;)"
+            }
+        ],
+        "tekst":"A kingdom is in turmoil as the old king dies, murdered by a strange and horrible poison. While the land of Delain mourns, the evil wizard Flagg, hatches an unscrupulous plot, which sees the King's eldest son Peter imprisoned for his father's murder, and the youngest son inherit the throne. Only Peter knows the truth about his own innocence and the evil that is Flagg. Only Peter can save Delain from the horror that Flagg has in store. But first, he must escape from the high tower.",
+        "slika":{
+            "src":"img/k12.jpg",
+            "alt":"knjiga 12",
+            "srcKorpa":"img/k12korpa.jpg"
+        }
+    }
+    
+]

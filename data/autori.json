@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "autor":"Tina Fey"
+    },
+    {
+        "id":2,
+        "autor":"Caitlin Moran"
+    },
+    {
+        "id":3,
+        "autor":"Alex Michaelides"
+    },
+    {
+        "id":4,
+        "autor":"Joe Pickett"
+    },
+    {
+        "id":5,
+        "autor":"Jasmine Guillory"
+    },
+    {
+        "id":6,
+        "autor":"L.J. Shen"
+    },
+    {
+        "id":7,
+        "autor":"Diana Gabaldon"
+    },
+    {
+        "id":8,
+        "autor":"Andre Agassi"
+    },
+    {
+        "id":9,
+        "autor":"Ariana Neumann"
+    },
+    {
+        "id":10,
+        "autor":"William Shakespeare"
+    },
+    {
+        "id":11,
+        "autor":"Stephen King"
+    }
+]

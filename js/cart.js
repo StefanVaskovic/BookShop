@@ -51,10 +51,10 @@ function ispisKnjigaKrozTabelu() {
             ispis += `
         <tr>
             <td><img src="${k.slika.srcKorpa}"/></td>
-            <td>${k.naslov}</td>
-            <td><input type="number" data-id="${k.id}" class="nmbKolicina" value="${k.kolicina}" min="1"/></td>
-            <td>$${k.cena.nova * k.kolicina}</td>
-            <td><button id="izbrisi" class="btn btn-light" onclick="izbirsiIzKorpe(${k.id})" data-idknjige="${k.id}">Remove</button></td>
+            <td class="align-middle">${k.naslov}</td>
+            <td class="align-middle"><input type="number" data-id="${k.id}" class="nmbKolicina" value="${k.kolicina}" min="1"/></td>
+            <td class="align-middle">$${k.cena.nova * k.kolicina}</td>
+            <td class="align-middle"><button id="izbrisi" class="btn btn-light" onclick="izbirsiIzKorpe(${k.id})" data-idknjige="${k.id}">Remove</button></td>
         </tr>
     `;
         }

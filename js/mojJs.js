@@ -29,9 +29,9 @@ $(document).ready(function () {
     $("#idiGore a i").animate({ color: "#fff" }, 200);
   });
   //meni toggle
-  $("#menu").click(function () {
-    $("#navbarResponsive").slideToggle('fast');
-  });
+  // $("#menu").click(function () {
+  //   $("#navbarResponsive").slideToggle();
+  // });
 });
 
 /*-----------FILTER I SORT--------------- */
